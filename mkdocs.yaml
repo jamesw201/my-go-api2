@@ -1,0 +1,10 @@
+
+
+site_name: "new-go-api"
+site_description: "This is my new go api"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core

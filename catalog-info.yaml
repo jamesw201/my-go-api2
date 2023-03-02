@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "new-go-api"
+  description: "This is my new go api"
+  annotations:
+    github.com/project-slug: jamesw201/my-go-api2
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: website
+  lifecycle: experimental
+  owner: "guests"
+  providesApis:
+    - "new-go-api"
